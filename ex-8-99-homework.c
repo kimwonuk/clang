@@ -10,7 +10,7 @@
 	}
 	for( i = 4; i > 0; i--){
 		for( j = 0; j < 5 - i; i++){printf( " " );}
-		for( j = 0; b < 2*i-1; j++){printf( "*" );}
+		for( j = 0; i < 2*i-1; j++){printf( "*" );}
 		printf( "\n" );
 	}
 	return 0;
